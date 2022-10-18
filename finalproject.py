@@ -1,4 +1,4 @@
-def unique_letters(alphabet):
+def letters(alphabet):
     """ 
  Check the provided text to see whether any letters are repeated.
 A set should be used in this solution, and the performance should be O(n).
@@ -14,7 +14,7 @@ A set should be used in this solution, and the performance should be O(n).
     return True
 
 # Alternative course of action
-def unique_letters2(alphabet):
+def letters2(alphabet):
     """ 
     Check the provided alphabet to see whether any letters are repeated.
 A set should be used in this solution, and the performance should be O(n).
@@ -34,10 +34,10 @@ A set should be used in this solution, and the performance should be O(n).
 
 
 alphabet1 = "akutidaksukakamubangets" # Expect True as each letter is distinct.
-print(unique_letters (alphabet1))
+print(letters (alphabet1))
 
 alphabet2 = "akutidaksukakamubangets"  # Because 'a' is repeated, anticipate False.
-print(unique_letters(alphabet2))
+print(letters(alphabet2))
 
 alphabet3 = "" 
-print(unique_letters(alphabet3))          # Given that it is an empty string, expect True.
+print(letters(alphabet3))          # Given that it is an empty string, expect True.
